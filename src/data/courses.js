@@ -13,6 +13,6 @@ export const coursesData = [
     exercises: "107 exercises",
     startLink: "/courses/html-css-course",
     certificate: true,
-    enrollLink: "http://localhost:5173/courses/*",
+    enrollLink: "https://achrefwebdev.vercel.app/courses/*",
   },
 ];
