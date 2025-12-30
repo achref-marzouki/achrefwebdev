@@ -1,0 +1,77 @@
+.certificate-info-page {
+  padding: 60px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.certificate-info-container {
+  max-width: 720px;
+  width: 100%;
+}
+
+/* Image */
+.certificate-info-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+}
+
+/* Titles */
+.certificate-info-title {
+  margin-top: 32px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.certificate-info-subtitle {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Text */
+.certificate-info-text {
+  margin-top: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Links */
+.certificate-info-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #198754;
+  text-decoration: none;
+}
+
+.certificate-info-link:hover {
+  text-decoration: underline;
+}
+
+/* Topics list */
+.certificate-topics {
+  margin-top: 16px;
+  padding-left: 18px;
+}
+
+.certificate-topics li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Button */
+.certificate-enroll-button {
+  display: inline-block;
+  margin-top: 32px;
+  background-color: #198754;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.certificate-enroll-button:hover {
+  background-color: #16794b;
+}

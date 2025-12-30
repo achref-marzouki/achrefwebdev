@@ -1,0 +1,67 @@
+/* Home layout */
+.home {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+}
+
+/* Hero section */
+.hero {
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Title */
+.hero-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+/* Text */
+.hero-text {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* Wave icon */
+.wave-icon {
+  height: 28px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* Button */
+.hero-button {
+  display: inline-block;
+  padding: 10px 22px;
+  background-color: #198754;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.hero-button:hover {
+  background-color: #16794b;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+}
