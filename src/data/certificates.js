@@ -11,7 +11,7 @@ export const certificatesData = [
       "Ad-free",
       "Breakdown into small videos",
     ],
-    enrollLink: "http://localhost:5173/certificates/*",
+    enrollLink: "https://achrefwebdev.vercel.app/certificates/*",
     infoLink: "/certificates/html-css",
   },
 ];
