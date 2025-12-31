@@ -45,14 +45,14 @@ export default function Courses() {
                   <span className="certificate-text">
                     Certificate available!
                   </span>
-                  <a
-                    href={course.enrollLink}
+                  <Link
+                    to={course.enrollLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="course-enroll"
                   >
                     Enroll Now
-                  </a>
+                  </Link>
                 </div>
               )}
             </article>
